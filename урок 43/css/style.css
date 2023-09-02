@@ -1,0 +1,240 @@
+body {
+    background: #181E34;
+    font-family: "Montserrat", "Arial", sans-serif;
+    /* font-size: 16px; */
+    /* font-weight: 400; */
+    line-height: 150%;
+    color: #fff;
+
+}
+
+.container {
+    max-width: 930px;
+    margin: 0 auto;
+    padding: 0 15px;
+    height: 100%;
+}
+
+/* ---------------- */
+
+.header-inner {
+    display: flex;
+    align-items: center;
+}
+
+.header-nav {
+    margin-left: auto;
+}
+
+.header-list {
+    display: flex;
+
+}
+
+.header-item {
+    margin-right: 30px;
+}
+
+.header-button {
+    font-weight: 500;
+    display: flex;
+    align-items: flex-start;
+    color: #2766AE;
+    background: #fff;
+    padding: 14px 30px;
+    border-radius: 100px;
+    /* gap: 10px; */
+}
+
+.header {
+    padding-top: 30px;
+    padding-bottom: 36px;
+}
+
+/* =============================== */
+
+.hero {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background: url("../img/Rectangle\ 1\ \(1\).jpg") 10% 50% / cover no-repeat;
+
+}
+
+.hero-title {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: normal;
+    text-align: center;
+    text-transform: uppercase;
+
+    margin-bottom: 60px;
+}
+
+.hero-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-text {
+    max-width: 436px;
+}
+
+.text-marg {
+    margin-bottom: 15px;
+}
+
+.hero-text span {
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #01A2CB;
+    font-style: normal;
+    line-height: normal;
+}
+
+.hero-buttons {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 320px;
+
+}
+
+.hero-button-one {
+    text-align: center;
+
+    margin-bottom: 10px;
+    padding: 18px 30px;
+    border-radius: 100px;
+    background: linear-gradient(180deg, #00A4CC 0%, #2766AE 100%);
+}
+
+.hero-button-two {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 18px 30px;
+    border-radius: 100px;
+    background: linear-gradient(95deg, #00A4CC 6.7%, #2766AE 91.35%);
+}
+
+img.hero-button-item {
+    margin-left: 4px;
+}
+
+/* ===================== */
+
+.cards {
+    padding: 120px 0;
+}
+
+.cards-title {
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.cards-text {
+    text-align: center;
+    max-width: 513px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+    width: 100%;
+    max-width: 513px;
+}
+
+.cards-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: -28px;
+    
+
+}
+
+.cards-box-item {
+    padding: 28px;
+    border-radius: 16px;
+    border: 2px solid #176BAE;
+    background: #197CB8;
+    box-shadow: 4px 4px 13px 0px rgba(5, 13, 41, 0.76);
+    width: 100%;
+    max-width: 204px;
+    margin-bottom: 28px;
+}
+
+.cards-box-title {
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.cards-box-text {
+    text-align: center;
+    font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%;
+
+}
+
+.cards-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 436px;
+    
+    padding: 18px 30px;
+    border-radius: 100px;
+    background: linear-gradient(180deg, #00A4CC 0%, #2766AE 100%);
+    margin: 30px auto 120px;
+}
+
+/* ========================================== */
+
+.footer {
+    padding: 60px 0;
+    border-top: 1px solid #323952;
+}
+
+.footer-inner {
+    display: flex;
+
+}
+
+.footer-desc {
+    width: 100%;
+    width: 267px;
+    margin-right: 197px;
+}
+
+.footer-desc a {
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+.footer-col2 {
+    margin-left: 117px;
+
+}
+
+.footer-col-title {
+    font-size: 22px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: uppercase;
+margin-bottom: 20px;
+}
+
+.footer-col-list-item {
+    margin-bottom: 10px;
+}
