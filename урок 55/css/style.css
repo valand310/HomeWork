@@ -1,0 +1,67 @@
+body {
+    background-color: #eeeef5;
+    color: #fff;
+}
+
+
+
+
+/* -------ДЗ------- */
+
+
+
+.wrapper {
+    display: inline-block;
+}
+
+.boxes {
+    margin-left: 200px;
+    transform: translateY(-110px);
+    
+
+    
+    
+}
+
+.box__red {
+    background: linear-gradient(120deg, #fa2f2f80, #ff620080);
+    width: 230px;
+    height: 230px;
+    border-radius: 15px;
+}
+
+.box__green {
+    background: linear-gradient(120deg, #0bf70380, #a7fc9180);
+    width: 230px;
+    height: 230px;
+    border-radius: 15px;
+}
+
+.box__blue {
+    background: linear-gradient(120deg, #312ffa80, #a200ff80);
+    width: 230px;
+    height: 230px;
+    border-radius: 15px;
+}
+
+.final {
+    width: 1200px;
+    height: 800px;
+    border: 6px dashed black;
+}
+
+
+/* сверху начальное положение, как в видео */
+/* снизу уже начинаем перемещать на необходимые места */
+
+.box__red {
+    transform: translate(800px, 564px);
+}
+
+.box__green {
+    transform: translate(400px, -100px) rotate(45deg);
+}
+
+.box__blue {
+    transform: translate(1129px, -385px) scale(1.6) rotate(180deg);
+}
