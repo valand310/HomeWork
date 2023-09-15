@@ -18,19 +18,19 @@
     position: fixed;
     inset: 0;
     z-index: 2;
-    display: none;
+    display: flex;
     align-items: center;
     justify-content: center;
     background-color: rgba(0, 0, 0, 0.678);
     opacity: 0;
     visibility: hidden;
-    transition: all 1s;
+    transition: all .5s;
 }
 
 .modal--open {
     opacity: 1;
     visibility: visible;
-    display: flex;
+   
     
 }
 
